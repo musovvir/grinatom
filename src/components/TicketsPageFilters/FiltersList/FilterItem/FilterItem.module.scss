@@ -1,0 +1,18 @@
+.filterItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+
+  &:hover {
+    background-color: #ecf5f4;
+  }
+
+  .input {
+    width: 20px;
+    height: 20px;
+  }
+
+  label {
+    padding-left: 5px;
+  }
+}

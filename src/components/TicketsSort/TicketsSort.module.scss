@@ -1,0 +1,43 @@
+.ticketsPageHeader {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 0 0 5px 1px #c2c1c1;
+    border-radius: 5px;
+
+    .btn {
+        width: 50%;
+        height: 50px;
+        font-weight: bold;
+        border: none;
+        background-color: white;
+
+        &:hover {
+            opacity: 0.8;
+            fill-opacity: 80%;
+            stroke-opacity: 80%;
+        }
+    }
+
+    .cheaperBtn {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+    }
+
+    .fasterBtn {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .active {
+        background-color: #2196f3;
+        color: white;
+
+        &:hover {
+            opacity: 0.9;
+            fill-opacity: 80%;
+            stroke-opacity: 80%;
+        }
+    }
+}

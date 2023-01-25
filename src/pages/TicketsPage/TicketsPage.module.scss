@@ -1,0 +1,13 @@
+.ticketsPage {
+    display: flex;
+    margin: auto;
+    width: 65%;
+
+    .ticketsFilters {
+        max-width: 30%;
+    }
+
+    .mainContent {
+        width: 65%;
+    }
+}

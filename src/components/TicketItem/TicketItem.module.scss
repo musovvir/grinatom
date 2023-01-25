@@ -1,0 +1,35 @@
+.ticketItem {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px #c2c1c1;
+  padding: 15px;
+  margin: 20px 10px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flight {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .price {
+    color: #2196f3;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .route,
+  .time,
+  .transplants,
+  .time {
+    padding-top: 15px;
+  }
+
+ .logo {
+   width: 125px;
+   height: 40px;
+ }
+}
