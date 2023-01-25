@@ -1,8 +1,8 @@
 Для запуска проекта:
 
-№№ 1. Скачайте репозиторий
+## 1. Скачайте репозиторий
 
-### `npm start`
+### `git clone https://github.com/musovvir/grinatom.git`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
